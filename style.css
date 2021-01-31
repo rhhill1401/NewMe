@@ -75,6 +75,7 @@
 .cardText {
   background-color: #75cfb8;
   color: white;
+  padding-bottom: 5%;
 }
 
 .pics {
@@ -125,7 +126,7 @@
 }
 .slogan2 {
   background-color: white;
-  color: #ffc478;
+  color: #ffc75f;
   font-size: x-large;
   font-weight: 600;
   font-family: Merriweather;
@@ -143,4 +144,18 @@
   border-radius: 10px;
   background-color: #0f1123;
   color: #f0e5d8;
+}
+
+.warning {
+  color: #351f39;
+  font-style: italic;
+  font-size: medium;
+  font-weight: 800;
+}
+
+.cardTextHeader {
+  background-color: #75cfb8;
+  color: #0a043c;
+  font-family: Merriweather;
+  font-weight: 800;
 }
