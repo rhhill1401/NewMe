@@ -1,4 +1,32 @@
 'use strict';
+
+const firstQuote = document.querySelector(`.quote1`);
+const arthur = document.querySelector(`.quote`);
+
+const quoteNum = Math.trunc(Math.random() * 7) + 1;
+
+if (quoteNum === 1) {
+  firstQuote.textContent = `"Peristence is very important. You should not give up unless you are forced to give up"`;
+  arthur.textContent = `-Elon Musk`;
+} else if (quoteNum === 2) {
+  firstQuote.textContent = `"We dont have to be smarter than the rest we have to be more diciplined than the rest"`;
+  arthur.textContent = `-Warren Buffet`;
+} else if (quoteNum === 3) {
+  firstQuote.textContent = `"If something stands Between You & Your Success, move it! Never be denied"`;
+  arthur.textContent = `-Dewayne Johnson`;
+} else if (quoteNum === 4) {
+  firstQuote.textContent = `"Everybody wants a quick fix. You may get results but they wont be permanent. Results come from you having to suffer"`;
+  arthur.textContent = `-David Goggins`;
+} else if (quoteNum === 5) {
+  firstQuote.textContent = `"Motivation is crap. Motivation comes and goes. When you're driven, whatever is in front of you wil be destroyed"`;
+  arthur.textContent = `-David Goggins`;
+} else if (quoteNum === 6) {
+  firstQuote.textContent = `"In 1995, I had 7 bucks in my pocket. I knew two things : I 'm broke as hell and one day I won't be"`;
+  arthur.textContent = `-Dewayne Johnson`;
+} else if (quoteNum === 7) {
+  firstQuote.textContent = `"I don't want to fall back on anything.. if i'm going to fall, I want to fall forward"`;
+  arthur.textContent = `-Denzel Washington`;
+}
 const priceConvertor = function (strikePrice) {
   return strikePrice * 100;
 };
