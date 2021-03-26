@@ -24,7 +24,7 @@ if (quoteNum === 1) {
   firstQuote.textContent = `"In 1995, I had 7 bucks in my pocket. I knew two things : I 'm broke as hell and one day I won't be"`;
   arthur.textContent = `-Dewayne Johnson`;
 } else if (quoteNum === 7) {
-  firstQuote.textContent = `"I don't want to fall back on anything.. if i'm going to fall, I want to fall forward!"`;
+  firstQuote.textContent = `"I don't want to fall back on anything.. if i'm going to fall, I want to fall forward"`;
   arthur.textContent = `-Denzel Washington`;
 }
 const priceConvertor = function (strikePrice) {
