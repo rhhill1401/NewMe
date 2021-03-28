@@ -27,6 +27,7 @@ if (quoteNum === 1) {
   firstQuote.textContent = `"I don't want to fall back on anything.. if i'm going to fall, I want to fall forward"`;
   arthur.textContent = `-Denzel Washington`;
 }
+
 const priceConvertor = function (strikePrice) {
   return strikePrice * 100;
 };
